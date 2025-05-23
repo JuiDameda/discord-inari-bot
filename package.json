@@ -1,0 +1,29 @@
+{
+   "name": "discord-reminder-bot",
+   "version": "1.0.0",
+   "description": "A Discord bot that sends daily reminders with reaction emojis",
+   "main": "bot.js",
+   "scripts": {
+      "start": "node bot.js",
+      "dev": "nodemon bot.js"
+   },
+   "keywords": [
+      "discord",
+      "bot",
+      "reminder",
+      "daily"
+   ],
+   "author": "Your Name",
+   "license": "MIT",
+   "dependencies": {
+      "discord.js": "^14.19.3",
+      "dotenv": "^16.5.0",
+      "node-cron": "^3.0.3"
+   },
+   "devDependencies": {
+      "nodemon": "^3.0.2"
+   },
+   "engines": {
+      "node": ">=16.0.0"
+   }
+}
